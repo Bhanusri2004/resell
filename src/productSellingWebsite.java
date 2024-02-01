@@ -1,7 +1,7 @@
 public class productSellingWebsite {
     public static void main(String[] args) {
-        product product1 = new product("iPhone 12", 999.99);
-        product product2 = new product("Samsung Galaxy S21", 899.99);
+        product product1 = new product("Earrings", 50.);
+        product product2 = new product("Ring", 899.99);
         shoppingCart cart = new shoppingCart();
         cart.addProduct(product1);
         cart.addProduct(product2);
